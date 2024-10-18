@@ -1,11 +1,10 @@
 let isEnabled = false;
-console.log("content.js");
+console.log("extesion <!=>");
 
 // Listen for messages from popup.js to enable or disable the pause/resume feature
 chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
     if (request.isEnabled !== undefined) {
         isEnabled = request.isEnabled;
-        console.log(isEnabled);
         
         
     }
