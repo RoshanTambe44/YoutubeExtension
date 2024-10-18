@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Auto Pause/Resume",
+  "version": "1.0",
+  "description": "Pauses the YouTube video when the tab is hidden and resumes it when the tab is visible.",
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "storage",
+    "scripting"
+  ],
+  "host_permissions": [
+    "*://www.youtube.com/*"
+  ],
+  "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+          "44": "youtube.png"
+      }
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/shorts/*", "https://www.youtube.com/watch?v=*" ],
+      "js": ["content.js"]
+    }
+  ]
+}
