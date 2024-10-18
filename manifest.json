@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "YouTube Auto Pause/Resume",
+  "name": "YouTube Extension",
   "version": "1.0",
   "description": "Pauses the YouTube video when the tab is hidden and resumes it when the tab is visible.",
   "permissions": [
