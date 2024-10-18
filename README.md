@@ -1,4 +1,4 @@
 **How to use this Extension.**
-1. Download Zip file and add to any folder which contains only this Downloaded zip file.
-2. Unzip that file to there.(after unzip delete that zip file)
-3. Go to Chrome => Click to three dots => Extansions => Manage Extensions => Unable Developer Mode => Load Unpacked => select that folder which contains that Unzip stuff.
+1. Download Zip file 
+2. Unzip/Extract that file.
+3. Go to Chrome => Click on three dots => Extansions => Manage Extensions => Unable Developer Mode => Load Unpacked => select that Unzip/Extract  stuff.
